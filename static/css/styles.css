@@ -1,0 +1,56 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	text-align: center;
+}
+
+header, footer {
+	position: absolute;
+	bottom: 0;
+	width: 100%;
+	padding: 15px;
+	color: #fff;
+	background: #9c27b0;
+}
+
+header {
+	position: static;
+}
+
+#content {
+	margin: 15px 0;
+}
+
+.error {
+	font-size: 8em;
+}
+
+label, input, button, select, textarea {
+	width: 230px;
+	padding: 6px;
+	margin: 5px 0;
+	text-align: left;
+	border: 1px solid #4e075a;
+}
+
+label {border: none;}
+
+.form {
+	margin: 10px 0;
+}
+
+form {
+	margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    flex-flow: column;
+    justify-content: center;
+}
+
+button {
+	text-align: center;
+	cursor: pointer;
+	background: #333;
+	color: #fff;
+}
